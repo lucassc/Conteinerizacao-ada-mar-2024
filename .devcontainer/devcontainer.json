@@ -1,0 +1,10 @@
+{
+    "postAttachCommand": "/bin/bash .devcontainer/setup.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
