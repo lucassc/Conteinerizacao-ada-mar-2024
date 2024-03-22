@@ -1,4 +1,4 @@
-# Execução exercícios de fixação Aula 2
+# Execução exercícios de fixação Aula 3
 
 ## Exercícios sobre Dockerfile
 
