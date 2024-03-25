@@ -1,4 +1,4 @@
-# Exercícios de fixação Aula 3
+# Exercícios de fixação Aula
 
 ## Exercícios sobre Dockerfile
 
@@ -8,11 +8,24 @@ Objetivo: Praticar a criação de um Dockerfile.
 
     Crie um Dockerfile que use a imagem base alpine e execute o comando echo "Hello, Docker!".
 
+```DOCKERFILE
+FROM alpine
+
+CMD ["echo", "Hello, Docker!"]
+
+```
+
+
 ### Exercício 2: Construir uma Imagem a partir de um Dockerfile
 
 Objetivo: Aprender a construir uma imagem Docker usando um Dockerfile.
 
     Usando o Dockerfile criado no Exercício 1, construa a imagem e nomeie-a hello-docker.
+
+```BASH
+## execute na pasta onde voce criou o Dockerfile
+docker build -t hello-docker .
+```
 
 ### Exercício 3: Executar um Script com Dockerfile
 

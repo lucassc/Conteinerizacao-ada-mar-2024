@@ -3,7 +3,7 @@
 | Aulas                             |
 | --------------------------------- |
 | [Aula 1 e 2](./aula_1_2/README.md)      |
-| [Aula 3](./aula_3/README.md)      |
+| [Aula 3 e 4](./aula_3_4/README.md)      |
 
 ## Links úteis
 
