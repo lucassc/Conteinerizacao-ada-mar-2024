@@ -1,9 +1,15 @@
 # Conteinerização
 
-| Aulas                             |
-| --------------------------------- |
-| [Aula 1 e 2](./aula_1_2/README.md)      |
-| [Aula 3 e 4](./aula_3_4/README.md)      |
+| Aulas                              |
+| ---------------------------------- |
+| [Aula 1 e 2](./aula_1_2/README.md) |
+| [Aula 3 e 4](./aula_3_4/README.md) |
+
+# Projeto
+
+O projeto desse modulo será conteinerizar o [Sistema de Casa de Eventos](https://github.com/roofranklin/casa-de-eventos-react)
+
+[Acesse aqui](./projeto/README.md) para ver a descrição completa.
 
 ## Links úteis
 
