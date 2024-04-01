@@ -18,6 +18,15 @@
 
 ### Exercício 5: Compartilhar Dados entre Containers com Volumes
 
+```BASH
+## Criar volume
+docker volume create exercicio-5
+
+#inicializa container
+docker run --name inicializador --rm --mount type=volume,source=exercicio-5,target=/meu-site busybox sh -c 'echo "<h1>Meu site dentro de um docker volume</h1>" > /meu-site/index.html'
+
+docker run --name meu-site --rm -p 8080:80 --mount type=volume,source=exercicio-5,target=/usr/share/nginx/html nginx
+```
 
 ## Exercícios sobre Docker Registry/Hub
 
