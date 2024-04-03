@@ -1,0 +1,15 @@
+## to run  
+# docker compose --file docker-compose_nginx.yml up
+## to stop  
+# docker compose --file docker-compose_nginx.yml down
+
+name: aula-7-2
+
+# Igual a 
+# docker run --rm -d -p 8080:80 --name meu-servidor nginx
+services:
+  server:
+    image: nginx
+    container_name: meu-servidor # --name meu-servidor
+    ports:
+      - "8080:80" # -p 8080:80

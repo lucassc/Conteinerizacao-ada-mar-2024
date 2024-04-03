@@ -1,0 +1,16 @@
+## to run  
+# docker compose --file docker-compose_atividade_individual.yml up
+## to stop  
+# docker compose --file docker-compose_atividade_individual.yml down
+
+name: aula-7-1
+
+# Igual a 
+# docker run --rm -it -e REDIS_PASSWORD=<Senha aqui> schwendler/atividade-individual:v2
+services:
+  atividade:
+    image: schwendler/atividade-individual:v2
+    stdin_open: true # i from -it
+    tty: true # t from -it
+    environment:
+      - REDIS_PASSWORD=<Senha aqui> # -e REDIS_PASSWORD=<Senha aqui>
